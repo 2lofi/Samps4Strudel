@@ -1,17 +1,17 @@
 {
   "_base": "https://raw.githubusercontent.com/2lofi/Samps4Strudel/main/",
   "2lofi": [
-    "2lofi_f/001_2Lo.wav",
-    "2lofi_f/002_2Lo.wav",
-    "2lofi_f/003_2Lo.wav",
-    "2lofi_f/004_2Lo.wav",
-    "2lofi_f/005_2Lo.wav",
-    "2lofi_f/006_2Lo.wav",
-    "2lofi_f/007_2Lo.wav",
-    "2lofi_f/008_2Lo.wav",
-    "2lofi_f/009_2Lo.wav",
-    "2lofi_f/010_2Lo.wav",
-    ],
+"2lofi_f/001_2Lo.wav",
+"2lofi_f/002_2Lo.wav",
+"2lofi_f/003_2Lo.wav",
+"2lofi_f/004_2Lo.wav",
+"2lofi_f/005_2Lo.wav",
+"2lofi_f/006_2Lo.wav",
+"2lofi_f/007_2Lo.wav",
+"2lofi_f/008_2Lo.wav",
+"2lofi_f/009_2Lo.wav",
+"2lofi_f/010_2Lo.wav"
+],
     
  "amen": [
 "amen/cw_amen01_175.wav",
@@ -33,7 +33,7 @@
 "amen/cw_amen17_175.wav",
 "amen/cw_amen18_178.wav",
 "amen/cw_amen19_172.wav",
-"amen/cw_amen20_164.wav",
+"amen/cw_amen20_164.wav"
 ],
       
     
@@ -64,7 +64,7 @@
      "kd_c/024_GH.wav",
      "kd_c/025_GH.wav",
      "kd_c/026_GH.wav",
-     "kd_c/027_GH.wav",
+     "kd_c/027_GH.wav"
       ],
     
    "sn": [  
