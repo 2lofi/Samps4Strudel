@@ -1,3 +1,397 @@
+2LoFi <3 Drum&Bass
+shadowgauge
+Online
+
+2LoFi <3  Drum&Bass
+
+ — 7:01 AM
+i put up the uzu thang
+Atraeus — 7:01 AM
+ah nice you got it committed!
+ok.  I think you've got the hang of the basics of git
+we need to move your samples out of the Synth Loops folder into the root
+2LoFi <3  Drum&Bass
+
+ — 7:02 AM
+it is starting to make sense
+Atraeus — 7:03 AM
+it should look kind of like this
+Image
+2LoFi <3  Drum&Bass
+
+ — 7:03 AM
+the samples or the sample directories
+Atraeus — 7:03 AM
+we can use your directory names
+you'll have to do this locally on your machine, then push to to the repo
+so once the sample folders are in the root
+
+git add .
+git commit -m "Fix sample structure"
+git push
+oh since you added a readme directly in github, you'll need to do a 
+git pull
+
+
+to sync your local repo 
+2LoFi <3  Drum&Bass
+
+ — 7:08 AM
+now git push
+git push
+woops
+Atraeus — 7:08 AM
+lol
+2LoFi <3  Drum&Bass
+
+ — 7:08 AM
+eryting be up tadate
+Atraeus — 7:08 AM
+type 
+dir
+paste that here
+2LoFi <3  Drum&Bass
+
+ — 7:09 AM
+Image
+Atraeus — 7:09 AM
+ok type
+git status
+
+and paste
+2LoFi <3  Drum&Bass
+
+ — 7:10 AM
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+Expand
+message.txt
+46 KB
+Atraeus — 7:10 AM
+yep, good
+
+git add .
+then 
+git status
+
+again
+2LoFi <3  Drum&Bass
+
+ — 7:12 AM
+Image
+Atraeus — 7:12 AM
+looks like you mispelled status 🙂
+hit cancel and just try git status again
+2LoFi <3  Drum&Bass
+
+ — 7:13 AM
+i did, but i spelled it right then
+Atraeus — 7:13 AM
+ok it still says your changes aren't staged
+run
+
+git add .
+
+again
+let me see the output of that
+2LoFi <3  Drum&Bass
+
+ — 7:14 AM
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config set advice.addEmptyPathspec false"
+Atraeus — 7:14 AM
+make sure to add the period
+git add "dot"
+2LoFi <3  Drum&Bass
+
+ — 7:14 AM
+ok, it is suppose to hang when i do that
+good to know
+Atraeus — 7:14 AM
+is it still hanging?
+2LoFi <3  Drum&Bass
+
+ — 7:15 AM
+nupe done
+Atraeus — 7:15 AM
+ok good
+git commit -m "fixed structure"
+i promise it's almost over 🙂
+2LoFi <3  Drum&Bass
+
+ — 7:16 AM
+Image
+Atraeus — 7:16 AM
+cool lets try a
+
+git push
+2LoFi <3  Drum&Bass
+
+ — 7:17 AM
+almost typed it inchat again
+its uploading
+Atraeus — 7:17 AM
+it can take a bit, you have a lot of files
+2LoFi <3  Drum&Bass
+
+ — 7:18 AM
+only 700 ish
+Atraeus — 7:19 AM
+it worked!
+2LoFi <3  Drum&Bass
+
+ — 7:19 AM
+yessum
+Atraeus — 7:19 AM
+ok last step is the json file
+2LoFi <3  Drum&Bass
+
+ — 7:20 AM
+the part I have no clue about, cpp made sense to me, and python, but I sucked with java
+Atraeus — 7:21 AM
+Create a strudel.json file locally in that folder.  Let's start with this
+
+{
+  "_base": "https://raw.githubusercontent.com/2lofi/Samps4Strudel/main/",
+  "bd": [
+    "bd/10_bd_switchangel.wav",
+    "bd/11_bd_mot4i.wav",
+    "bd/12_bd_mot4i.wav",
+    "bd/13_bd_mot4i.wav",
+    "bd/14_bd_switchangel.wav",
+    "bd/15_bd_switchangel.wav",
+    "bd/16_bd_switchangel.wav",
+    "bd/17_bd_switchangel.wav"
+  ],
+  "brk": [
+    "brk/10_break_amen_pprocessed.wav"
+  ],
+  "cb": [
+    "cb/10_perc_switchangel.wav"
+  ],
+  "cp": [
+    "cp/10_cp_switchangel.wav",
+    "cp/11_cp_mot4i.wav"
+  ],
+  "cr": [
+    "cr/10_cr_switchangel.wav",
+    "cr/11_cr_mot4i.wav"
+  ],
+  "hh": [
+    "hh/10_hh_switchangel.wav",
+    "hh/11_hh_mot4i.wav",
+    "hh/12_hh_switchangel.wav",
+    "hh/13_hh_switchangel.wav",
+    "hh/14_hh_mot4i.wav"
+  ],
+  "ht": [
+    "ht/10_ht_mot4i.wav"
+  ],
+  "lt": [
+    "lt/10_lt_mot4i.wav"
+  ],
+  "misc": [
+    "misc/10_misc_switchangel_ludens.wav",
+    "misc/11_misc_switchangel_ludens.wav",
+    "misc/12_misc_switchangel_ludens.wav",
+    "misc/13_misc_switchangel_ludens.wav",
+    "misc/14_misc_switchangel_ludens.wav"
+  ],
+  "mt": [
+    "mt/10_mt_mot4i.wav"
+  ],
+  "oh": [
+    "oh/10_oh_switchangel.wav",
+    "oh/11_oh_switchangel.wav",
+    "oh/12_oh_switchangel.wav",
+    "oh/13_oh_switchangel.wav"
+  ],
+  "rd": [
+    "rd/10_rd_switchangel.wav"
+  ],
+  "rim": [
+    "rim/10_rim_switchangel.wav",
+    "rim/11_rim_switch_angel.wav"
+  ],
+  "sd": [
+    "sd/10_sd_switchangel-bounce-2.wav",
+    "sd/11_sd_switchangel_3.wav",
+    "sd/12_sd_switchangel_2.wav",
+    "sd/13_sd_switchangel_2.wav",
+    "sd/14_sd.wav"
+  ],
+  "sh": [
+    "sh/10_sh_switchangel.wav"
+  ],
+  "tb": [
+    "tb/10_tb.wav"
+  ]
+}
+What you're going to have to do is change the elements to match your structure
+2LoFi <3  Drum&Bass
+
+ — 7:22 AM
+yeah, alot of copy and pasting
+Atraeus — 7:23 AM
+when you're done with that, we're going to do the same
+
+git add .
+
+git commit -m "A message describing what you're doing"
+
+git push
+2LoFi <3  Drum&Bass
+
+ — 7:25 AM
+kewl brother, then I can load the sample from the REPL... yay
+Atraeus — 7:25 AM
+there may be one additional step after that, but we should be good yeah
+2LoFi <3  Drum&Bass
+
+ — 7:25 AM
+tysm
+Atraeus — 7:26 AM
+np.  It can also be beneficial to add a LICENSE file which describes usage for others
+2LoFi <3  Drum&Bass
+
+ — 7:27 AM
+yeah,, I am giving the stuff away, just something along those lines, free samples 4 use with strudel
+Atraeus — 7:27 AM
+MIT license would be a good choice 🙂
+or creative commons
+it's really up to you
+appreciate the contribution.  hopefully we can get it working
+2LoFi <3  Drum&Bass
+
+ — 7:28 AM
+cc
+it will, then you can listen to the banger I just wrote :D... I mean I reacorded it and mp3'd it, but it's just not the same
+Atraeus — 7:30 AM
+heck yeah, your stuff's really cool 
+2LoFi <3  Drum&Bass
+
+ — 7:30 AM
+🙏
+Atraeus — 7:30 AM
+need to step away for a bit.  feel free to send me a dm if you run into any further issues
+2LoFi <3  Drum&Bass
+
+ — 7:31 AM
+plus the kicks and the snares in the samples are actually mastered, and they sound 100 times better than anything I have heard on studel yet
+2LoFi <3  Drum&Bass
+
+ — 2:36 PM
+k. now what 😄
+ ... I passed dafk out.. and jk, I know what I need to do I think
+Atraeus — 2:37 PM
+Cri said they wrote a script to help you with the json file
+2LoFi <3  Drum&Bass
+
+ — 2:38 PM
+I use window shell and just populated a textfile. but ahh💜
+to make sure
+git add .
+ git commit -m "i gotta do this everytime!"
+git pull
+git push
+Atraeus — 2:44 PM
+Yep.  Do pull first
+Pull syncs local repo with GitHub
+
+Add stages your changes
+
+Commit commits them to the local repo
+
+Push sends them to GitHub 
+2LoFi <3  Drum&Bass
+
+ — 2:47 PM
+ok, i'm almost giddy
+so do I need to regisster is with strudel at all
+Atraeus — 2:48 PM
+No you should just be able to use that one line of strudel code
+2LoFi <3  Drum&Bass
+
+ — 2:49 PM
+the sampler() with thegit adress corrrect
+Atraeus — 2:50 PM
+yeah it'll look like
+samples('github:2lofi/main')
+ 
+eerr sorry
+samples('github:2lofi/Samps4Strudel')
+2LoFi <3  Drum&Bass
+
+ — 2:52 PM
+sweet. sooooo. you think I should load the serum 2 wavetable 😄
+Atraeus — 2:52 PM
+your json file has an error in it though
+2LoFi <3  Drum&Bass
+
+ — 2:52 PM
+oh no
+Atraeus — 2:52 PM
+Image
+2LoFi <3  Drum&Bass
+
+ — 2:53 PM
+lol, i can edit it on github right
+Atraeus — 2:53 PM
+i think so
+2LoFi <3  Drum&Bass
+
+ — 2:53 PM
+I was fkin tired man
+Atraeus — 2:54 PM
+you also need commas between the lists
+check this example
+
+https://github.com/atraeus7/uzu-drumkit/blob/main/strudel.json
+GitHub
+uzu-drumkit/strudel.json at main · atraeus7/uzu-drumkit
+A minimal, very nice sounding electronic drum kit made specifically for uzu's - atraeus7/uzu-drumkit
+A minimal, very nice sounding electronic drum kit made specifically for uzu's - atraeus7/uzu-drumkit
+2LoFi <3  Drum&Bass
+
+ — 2:54 PM
+yeah I knew that, but I still forgot 😄
+not after the  last though right
+Atraeus — 2:55 PM
+yeah you dont need it
+2LoFi <3  Drum&Bass
+
+ — 2:58 PM
+already
+Atraeus — 2:59 PM
+i think it looks good. formatting is a bit off, but I dont think it'll matter
+nah, its giving me a loading error
+2LoFi <3  Drum&Bass
+
+ — 3:00 PM
+damnit, the spaces?
+Atraeus — 3:00 PM
+i'm loading it into an editor to see whats up
+trailing commas.  HEre this should work
+
+
+{
+  "_base": "https://raw.githubusercontent.com/2lofi/Samps4Strudel/main/",
+  "2lofi": [
+    "2lofi_f/001_2Lo.wav",
+    "2lofi_f/002_2Lo.wav",
+    "2lofi_f/003_2Lo.wav",
+Expand
+message.txt
+12 KB
+﻿
+Atraeus
+atraeus
+ 
 {
   "_base": "https://raw.githubusercontent.com/2lofi/Samps4Strudel/main/",
   "2lofi": [
@@ -10,387 +404,365 @@
     "2lofi_f/007_2Lo.wav",
     "2lofi_f/008_2Lo.wav",
     "2lofi_f/009_2Lo.wav",
-    "2lofi_f/010_2Lo.wav",
-    ],
-    
- "amen": [
-"amen/cw_amen01_175.wav",
-"amen/cw_amen02_165.wav",
-"amen/cw_amen03_167.wav",
-"amen/cw_amen04_170.wav",
-"amen/cw_amen05_158.wav",
-"amen/cw_amen06_169.wav",
-"amen/cw_amen07_172.wav",
-"amen/cw_amen08_165.wav",
-"amen/cw_amen09_175.wav",
-"amen/cw_amen10_135.wav",
-"amen/cw_amen11_145.wav",
-"amen/cw_amen12_137.wav",
-"amen/cw_amen13_173.wav",
-"amen/cw_amen14_175.wav",
-"amen/cw_amen15_174.wav",
-"amen/cw_amen16_167.wav",
-"amen/cw_amen17_175.wav",
-"amen/cw_amen18_178.wav",
-"amen/cw_amen19_172.wav",
-"amen/cw_amen20_164.wav",
-],
-    
-"nfosf": [    
- "nf_os_f/BOS_NFXL_Bass_One_Shot_All_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Amount_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Apart_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Assign_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Beyond_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Bringing_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Brought_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Cake_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Chaos_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Cold_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Control_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Dark_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Daze_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Decay_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Depth_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Destroy_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Doctor_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Dominate_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Driven_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Event_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Feeling_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_First_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Games_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Grace_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Green_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Group_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Harmonic_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Highlight_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Individual_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Journey_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Level_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Lifetime_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Mandem_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Meet_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Mist_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Module_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Mount_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Nerd_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Notice_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Older_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Overlord_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Parting_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Peace_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Percieve_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Pieces_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Reality_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Relax_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Rest_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Ring_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Room_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Rule_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Safety_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Sleep_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Sustain_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_System_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Tandem_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Together_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Train_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Troll_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Twice_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Upper_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Venue_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Veteran_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_What_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Working_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Worry_F.wav",
- "nf_os_f/BOS_NFXL_Bass_One_Shot_Zip_F.wav",
- ],
-    
-       "ju_os_D#": [
-     "ju_os_d#/JUA_D#_Bass_One_Shot_Agile.wav",
-     "ju_os_d#/JUA_D#_Bass_One_Shot_Animated.wav",
-     "ju_os_d#/JUA_D#_Bass_One_Shot_Brisk.wav",
-     "ju_os_d#/JUA_D#_Bass_One_Shot_Bubbly.wav",
-     "ju_os_d#/JUA_D#_Bass_One_Shot_Buoyant.wav",
-     "ju_os_d#/JUA_D#_Bass_One_Shot_Chipper.wav",
-     "ju_os_d#/JUA_D#_Bass_One_Shot_Dynamic.wav",
-     "ju_os_d#/JUA_D#_Bass_One_Shot_Energetic.wav",
-     "ju_os_d#/JUA_D#_Bass_One_Shot_Euphoric.wav",
-     "ju_os_d#/JUA_D#_Bass_One_Shot_Excited.wav",
-     "ju_os_d#/JUA_D#_Bass_One_Shot_Exuberant.wav",
-     "ju_os_d#/JUA_D#_Bass_One_Shot_Frisky.wav",
-     "ju_os_d#/JUA_D#_Bass_One_Shot_Hyperactive.wav",
-     "ju_os_d#/JUA_D#_Bass_One_Shot_Jaunty.wav",
-     "ju_os_d#/JUA_D#_Bass_One_Shot_Lively.wav",
-     "ju_os_d#/JUA_D#_Bass_One_Shot_Nimble.wav",
-     "ju_os_d#/JUA_D#_Bass_One_Shot_Peppy.wav",
-     "ju_os_d#/JUA_D#_Bass_One_Shot_Perky.wav",
-     "ju_os_d#/JUA_D#_Bass_One_Shot_Pulsating.wav",
-     "ju_os_d#/JUA_D#_Bass_One_Shot_Punchy.wav",
-     "ju_os_d#/JUA_D#_Bass_One_Shot_Quick.wav",
-     "ju_os_d#/JUA_D#_Bass_One_Shot_Racy.wav",
-     "ju_os_d#/JUA_D#_Bass_One_Shot_Radiant.wav",
-     "ju_os_d#/JUA_D#_Bass_One_Shot_Robust.wav",
-     "ju_os_d#/JUA_D#_Bass_One_Shot_Snappy.wav",
-     "ju_os_d#/JUA_D#_Bass_One_Shot_Sparkling.wav",
-     "ju_os_d#/JUA_D#_Bass_One_Shot_Spirited.wav",
-     "ju_os_d#/JUA_D#_Bass_One_Shot_Sprightly.wav",
-     "ju_os_d#/JUA_D#_Bass_One_Shot_Uplifted.wav",
-     "ju_os_d#/JUA_D#_Bass_One_Shot_Vigorous.wav",
-     "ju_os_d#/JUA_D#_Bass_One_Shot_Vital.wav",
-     "ju_os_d#/JUA_D#_Bass_One_Shot_Vivacious.wav",
-     "ju_os_d#/JUA_D#_Bass_One_Shot_Zappy.wav",
-     "ju_os_d#/JUA_D#_Bass_One_Shot_Zesty.wav",
-     "ju_os_d#/JUA_D#_Bass_One_Shot_Zingy.wav",
-     "ju_os_d#/JUA_D#_Bass_One_Shot_Zippy.wav",
-      ],
-    
-    
-    
-   "kd": [
-     "kd_c/001_GH.wav",
-     "kd_c/002_GH.wav",
-     "kd_c/003_GH.wav",
-     "kd_c/004_GH.wav",
-     "kd_c/005_GH.wav",
-     "kd_c/006_GH.wav",
-     "kd_c/007_GH.wav",
-     "kd_c/008_GH.wav",
-     "kd_c/009_GH.wav",
-     "kd_c/010_GH.wav",
-     "kd_c/011_GH.wav",
-     "kd_c/012_GH.wav",
-     "kd_c/013_GH.wav",
-     "kd_c/014_GH.wav",
-     "kd_c/015_GH.wav",
-     "kd_c/016_GH.wav",
-     "kd_c/017_GH.wav",
-     "kd_c/018_GH.wav",
-     "kd_c/019_GH.wav",
-     "kd_c/020_GH.wav",
-     "kd_c/021_GH.wav",
-     "kd_c/022_GH.wav",
-     "kd_c/023_GH.wav",
-     "kd_c/024_GH.wav",
-     "kd_c/025_GH.wav",
-     "kd_c/026_GH.wav",
-     "kd_c/027_GH.wav",
-      ],
-    
-   "sn": [  
-     "sn_c/001_GH.wav",
-     "sn_c/002_GH.wav",
-     "sn_c/003_GH.wav",
-     "sn_c/004_GH.wav",
-     "sn_c/005_GH.wav",
-     "sn_c/006_GH.wav",
-     "sn_c/007_GH.wav",
-     "sn_c/008_GH.wav",
-     "sn_c/009_GH.wav",
-     "sn_c/010_GH.wav",
-     "sn_c/011_GH.wav",
-     "sn_c/012_GH.wav",
-     "sn_c/013_GH.wav",
-     "sn_c/014_GH.wav",
-     "sn_c/015_GH.wav",
-     "sn_c/016_GH.wav",
-     "sn_c/017_GH.wav",
-     "sn_c/018_GH.wav",
-     "sn_c/019_GH.wav",
-     "sn_c/020_GH.wav",
-      ],
-
-    
-"rcb_c": [
-"rcb_c/001_Ser.wav",
-"rcb_c/002_Ser.wav",
-"rcb_c/003_Ser.wav",
-"rcb_c/004_Ser.wav",
-"rcb_c/005_Ser.wav",
-"rcb_c/006_Ser.wav",
-"rcb_c/007_Ser.wav",
-"rcb_c/008_Ser.wav",
-"rcb_c/009_Ser.wav",
-"rcb_c/010_Ser.wav",
-"rcb_c/011_Ser.wav",
-"rcb_c/012_Ser.wav",
-"rcb_c/013_Ser.wav",
-"rcb_c/014_Ser.wav",
-"rcb_c/015_Ser.wav",
-"rcb_c/016_Ser.wav",
-"rcb_c/017_Ser.wav",
-"rcb_c/018_Ser.wav",
-"rcb_c/019_Ser.wav",
-"rcb_c/020_Ser.wav",
-"rcb_c/021_Ser.wav",
-"rcb_c/022_Ser.wav",
-"rcb_c/023_Ser.wav",
-"rcb_c/024_Ser.wav",
-"rcb_c/025_Ser.wav",
-"rcb_c/026_Ser.wav",
-"rcb_c/027_Ser.wav",
-"rcb_c/028_Ser.wav",
-"rcb_c/029_Ser.wav",
-"rcb_c/030_Ser.wav",
-"rcb_c/031_Ser.wav",
-"rcb_c/032_Ser.wav",
-"rcb_c/033_Ser.wav",
-"rcb_c/034_Ser.wav",
-"rcb_c/035_Ser.wav",
-"rcb_c/036_Ser.wav",
-"rcb_c/037_Ser.wav",
-"rcb_c/038_Ser.wav",
-"rcb_c/039_Ser.wav",
-"rcb_c/040_Ser.wav",
-"rcb_c/041_Ser.wav",
-"rcb_c/042_Ser.wav",
-"rcb_c/044_Ser.wav",
-"rcb_c/045_Ser.wav",
-"rcb_c/046_Ser.wav",
-"rcb_c/049_Ser.wav",
-"rcb_c/050_Ser.wav",
-"rcb_c/051_Ser.wav",
-"rcb_c/052_Ser.wav",
-"rcb_c/053_Ser.wav",
-"rcb_c/054_Ser.wav",
-"rcb_c/055_Ser.wav",
-"rcb_c/056_Ser.wav",
-"rcb_c/059_Ser.wav",
-"rcb_c/060_Ser.wav",
-"rcb_c/061_Ser.wav",
-"rcb_c/062_Ser.wav",
-"rcb_c/063_Ser.wav",
-"rcb_c/064_Ser.wav",
-"rcb_c/065_Ser.wav",
-"rcb_c/066_Ser.wav",
-"rcb_c/067_Ser.wav",
-],
-
-"pl_c": [
-"pl_c/001_Ser.wav",
-"pl_c/002_Ser.wav",
-"pl_c/003_Ser.wav",
-"pl_c/004_Ser.wav",
-"pl_c/005_Ser.wav",
-"pl_c/006_Ser.wav",
-"pl_c/007_Ser.wav",
-"pl_c/008_Ser.wav",
-"pl_c/009_Ser.wav",
-"pl_c/010_Ser.wav",
-"pl_c/011_Ser.wav",
-"pl_c/012_Ser.wav",
-"pl_c/013_Ser.wav",
-"pl_c/014_Ser.wav",
-"pl_c/015_Ser.wav",
-"pl_c/016_Ser.wav",
-"pl_c/017_Ser.wav",
-"pl_c/018_Ser.wav",
-"pl_c/019_Ser.wav",
-"pl_c/020_Ser.wav",
-"pl_c/021_Ser.wav",
-"pl_c/022_Ser.wav",
-"pl_c/023_Ser.wav",
-"pl_c/024_Ser.wav",
-"pl_c/025_Ser.wav",
-"pl_c/026_Ser.wav",
-"pl_c/027_Ser.wav",
-"pl_c/028_Ser.wav",
-"pl_c/029_Ser.wav",
-"pl_c/030_Ser.wav",
-"pl_c/031_Ser.wav",
-"pl_c/032_Ser.wav",
-"pl_c/033_Ser.wav",
-"pl_c/034_Ser.wav",
-"pl_c/035_Ser.wav",
-"pl_c/036_Ser.wav",
-"pl_c/039_Ser.wav",
-"pl_c/040_Ser.wav",
-"pl_c/041_Ser.wav",
-"pl_c/042_Ser.wav",
-"pl_c/043_Ser.wav",
-"pl_c/044_Ser.wav",
-"pl_c/045_Ser.wav",
-"pl_c/046_Ser.wav",
-"pl_c/047_Ser.wav",
-"pl_c/048_Ser.wav",
-"pl_c/049_Ser.wav",
-"pl_c/050_Ser.wav",
-"pl_c/051_Ser.wav",
-"pl_c/052_Ser.wav",
-"pl_c/053_Ser.wav",
-"pl_c/054_Ser.wav",
-"pl_c/055_Ser.wav",
-"pl_c/056_Ser.wav",
-"pl_c/057_Ser.wav",
-"pl_c/058_Ser.wav",
-"pl_c/059_Ser.wav",
-"pl_c/060_Ser.wav",
-"pl_c/061_Ser.wav",
-"pl_c/062_Ser.wav",
-"pl_c/063_Ser.wav",
-"pl_c/064_Ser.wav",
-"pl_c/065_Ser.wav",
-"pl_c/066_Ser.wav",
-"pl_c/067_Ser.wav",
-],
-
-
-
-"arpf": [
-     "arp_f/Arp1A-001.wav",
-     "arp_f/Arp1A-002.wav",
-     "arp_f/Arp1A-003.wav",
-     "arp_f/Arp1A-004.wav",
-     "arp_f/Arp1A-005.wav",
-     "arp_f/Arp1A-006.wav",
-     "arp_f/Arp1A-007.wav",
-     "arp_f/Arp1A-008.wav",
-     "arp_f/Arp1A-009.wav",
-     "arp_f/Arp1A-010.wav",
-      ],
-
-   "DL": [
-       "dl/DL_Camo_001.wav",
-       "dl/DL_Camo_002.wav",
-       "dl/DL_Camo_003.wav",
-       "dl/DL_Camo_004.wav",
-       "dl/DL_Camo_005.wav",
-       "dl/DL_Camo_006.wav",
-       "dl/DL_Camo_007.wav",
-       "dl/DL_Camo_008.wav",
-       "dl/DL_Camo_009.wav",
-       "dl/DL_Camo_010.wav",
-       "dl/DL_Camo_011.wav",
-       "dl/DL_Camo_012.wav",
-       "dl/DL_Camo_013.wav",
-       "dl/DL_Camo_014.wav",
-       "dl/DL_From_001.wav",
-       "dl/DL_From_002.wav",
-       "dl/DL_From_003.wav",
-       "dl/DL_From_004.wav",
-       "dl/DL_From_005.wav",
-       "dl/DL_From_008.wav",
-       "dl/DL_From_009.wav",
-       "dl/DL_From_010.wav",
-       ],
-
-
-    "sb": [
-     "sb_c/001_Ser.wav",
-     "sb_c/002_Ser.wav",
-     "sb_c/003_Ser.wav",
-     "sb_c/004_Ser.wav",
-     "sb_c/005_Ser.wav",
-     "sb_c/006_Ser.wav",
-     "sb_c/007_Ser.wav",
-     "sb_c/008_Ser.wav",
-     "sb_c/009_Ser.wav",
-     "sb_c/010_Ser.wav",
-      ]
-
-
-
-
-
+    "2lofi_f/010_2Lo.wav"
+  ],
+  "amen": [
+    "amen/cw_amen01_175.wav",
+    "amen/cw_amen02_165.wav",
+    "amen/cw_amen03_167.wav",
+    "amen/cw_amen04_170.wav",
+    "amen/cw_amen05_158.wav",
+    "amen/cw_amen06_169.wav",
+    "amen/cw_amen07_172.wav",
+    "amen/cw_amen08_165.wav",
+    "amen/cw_amen09_175.wav",
+    "amen/cw_amen10_135.wav",
+    "amen/cw_amen11_145.wav",
+    "amen/cw_amen12_137.wav",
+    "amen/cw_amen13_173.wav",
+    "amen/cw_amen14_175.wav",
+    "amen/cw_amen15_174.wav",
+    "amen/cw_amen16_167.wav",
+    "amen/cw_amen17_175.wav",
+    "amen/cw_amen18_178.wav",
+    "amen/cw_amen19_172.wav",
+    "amen/cw_amen20_164.wav"
+  ],
+  "nfosf": [
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_All_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Amount_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Apart_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Assign_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Beyond_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Bringing_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Brought_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Cake_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Chaos_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Cold_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Control_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Dark_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Daze_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Decay_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Depth_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Destroy_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Doctor_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Dominate_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Driven_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Event_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Feeling_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_First_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Games_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Grace_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Green_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Group_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Harmonic_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Highlight_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Individual_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Journey_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Level_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Lifetime_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Mandem_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Meet_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Mist_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Module_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Mount_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Nerd_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Notice_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Older_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Overlord_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Parting_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Peace_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Percieve_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Pieces_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Reality_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Relax_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Rest_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Ring_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Room_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Rule_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Safety_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Sleep_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Sustain_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_System_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Tandem_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Together_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Train_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Troll_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Twice_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Upper_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Venue_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Veteran_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_What_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Working_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Worry_F.wav",
+    "nf_os_f/BOS_NFXL_Bass_One_Shot_Zip_F.wav"
+  ],
+  "ju_os_D#": [
+    "ju_os_d#/JUA_D#_Bass_One_Shot_Agile.wav",
+    "ju_os_d#/JUA_D#_Bass_One_Shot_Animated.wav",
+    "ju_os_d#/JUA_D#_Bass_One_Shot_Brisk.wav",
+    "ju_os_d#/JUA_D#_Bass_One_Shot_Bubbly.wav",
+    "ju_os_d#/JUA_D#_Bass_One_Shot_Buoyant.wav",
+    "ju_os_d#/JUA_D#_Bass_One_Shot_Chipper.wav",
+    "ju_os_d#/JUA_D#_Bass_One_Shot_Dynamic.wav",
+    "ju_os_d#/JUA_D#_Bass_One_Shot_Energetic.wav",
+    "ju_os_d#/JUA_D#_Bass_One_Shot_Euphoric.wav",
+    "ju_os_d#/JUA_D#_Bass_One_Shot_Excited.wav",
+    "ju_os_d#/JUA_D#_Bass_One_Shot_Exuberant.wav",
+    "ju_os_d#/JUA_D#_Bass_One_Shot_Frisky.wav",
+    "ju_os_d#/JUA_D#_Bass_One_Shot_Hyperactive.wav",
+    "ju_os_d#/JUA_D#_Bass_One_Shot_Jaunty.wav",
+    "ju_os_d#/JUA_D#_Bass_One_Shot_Lively.wav",
+    "ju_os_d#/JUA_D#_Bass_One_Shot_Nimble.wav",
+    "ju_os_d#/JUA_D#_Bass_One_Shot_Peppy.wav",
+    "ju_os_d#/JUA_D#_Bass_One_Shot_Perky.wav",
+    "ju_os_d#/JUA_D#_Bass_One_Shot_Pulsating.wav",
+    "ju_os_d#/JUA_D#_Bass_One_Shot_Punchy.wav",
+    "ju_os_d#/JUA_D#_Bass_One_Shot_Quick.wav",
+    "ju_os_d#/JUA_D#_Bass_One_Shot_Racy.wav",
+    "ju_os_d#/JUA_D#_Bass_One_Shot_Radiant.wav",
+    "ju_os_d#/JUA_D#_Bass_One_Shot_Robust.wav",
+    "ju_os_d#/JUA_D#_Bass_One_Shot_Snappy.wav",
+    "ju_os_d#/JUA_D#_Bass_One_Shot_Sparkling.wav",
+    "ju_os_d#/JUA_D#_Bass_One_Shot_Spirited.wav",
+    "ju_os_d#/JUA_D#_Bass_One_Shot_Sprightly.wav",
+    "ju_os_d#/JUA_D#_Bass_One_Shot_Uplifted.wav",
+    "ju_os_d#/JUA_D#_Bass_One_Shot_Vigorous.wav",
+    "ju_os_d#/JUA_D#_Bass_One_Shot_Vital.wav",
+    "ju_os_d#/JUA_D#_Bass_One_Shot_Vivacious.wav",
+    "ju_os_d#/JUA_D#_Bass_One_Shot_Zappy.wav",
+    "ju_os_d#/JUA_D#_Bass_One_Shot_Zesty.wav",
+    "ju_os_d#/JUA_D#_Bass_One_Shot_Zingy.wav",
+    "ju_os_d#/JUA_D#_Bass_One_Shot_Zippy.wav"
+  ],
+  "kd": [
+    "kd_c/001_GH.wav",
+    "kd_c/002_GH.wav",
+    "kd_c/003_GH.wav",
+    "kd_c/004_GH.wav",
+    "kd_c/005_GH.wav",
+    "kd_c/006_GH.wav",
+    "kd_c/007_GH.wav",
+    "kd_c/008_GH.wav",
+    "kd_c/009_GH.wav",
+    "kd_c/010_GH.wav",
+    "kd_c/011_GH.wav",
+    "kd_c/012_GH.wav",
+    "kd_c/013_GH.wav",
+    "kd_c/014_GH.wav",
+    "kd_c/015_GH.wav",
+    "kd_c/016_GH.wav",
+    "kd_c/017_GH.wav",
+    "kd_c/018_GH.wav",
+    "kd_c/019_GH.wav",
+    "kd_c/020_GH.wav",
+    "kd_c/021_GH.wav",
+    "kd_c/022_GH.wav",
+    "kd_c/023_GH.wav",
+    "kd_c/024_GH.wav",
+    "kd_c/025_GH.wav",
+    "kd_c/026_GH.wav",
+    "kd_c/027_GH.wav"
+  ],
+  "sn": [
+    "sn_c/001_GH.wav",
+    "sn_c/002_GH.wav",
+    "sn_c/003_GH.wav",
+    "sn_c/004_GH.wav",
+    "sn_c/005_GH.wav",
+    "sn_c/006_GH.wav",
+    "sn_c/007_GH.wav",
+    "sn_c/008_GH.wav",
+    "sn_c/009_GH.wav",
+    "sn_c/010_GH.wav",
+    "sn_c/011_GH.wav",
+    "sn_c/012_GH.wav",
+    "sn_c/013_GH.wav",
+    "sn_c/014_GH.wav",
+    "sn_c/015_GH.wav",
+    "sn_c/016_GH.wav",
+    "sn_c/017_GH.wav",
+    "sn_c/018_GH.wav",
+    "sn_c/019_GH.wav",
+    "sn_c/020_GH.wav"
+  ],
+  "rcb_c": [
+    "rcb_c/001_Ser.wav",
+    "rcb_c/002_Ser.wav",
+    "rcb_c/003_Ser.wav",
+    "rcb_c/004_Ser.wav",
+    "rcb_c/005_Ser.wav",
+    "rcb_c/006_Ser.wav",
+    "rcb_c/007_Ser.wav",
+    "rcb_c/008_Ser.wav",
+    "rcb_c/009_Ser.wav",
+    "rcb_c/010_Ser.wav",
+    "rcb_c/011_Ser.wav",
+    "rcb_c/012_Ser.wav",
+    "rcb_c/013_Ser.wav",
+    "rcb_c/014_Ser.wav",
+    "rcb_c/015_Ser.wav",
+    "rcb_c/016_Ser.wav",
+    "rcb_c/017_Ser.wav",
+    "rcb_c/018_Ser.wav",
+    "rcb_c/019_Ser.wav",
+    "rcb_c/020_Ser.wav",
+    "rcb_c/021_Ser.wav",
+    "rcb_c/022_Ser.wav",
+    "rcb_c/023_Ser.wav",
+    "rcb_c/024_Ser.wav",
+    "rcb_c/025_Ser.wav",
+    "rcb_c/026_Ser.wav",
+    "rcb_c/027_Ser.wav",
+    "rcb_c/028_Ser.wav",
+    "rcb_c/029_Ser.wav",
+    "rcb_c/030_Ser.wav",
+    "rcb_c/031_Ser.wav",
+    "rcb_c/032_Ser.wav",
+    "rcb_c/033_Ser.wav",
+    "rcb_c/034_Ser.wav",
+    "rcb_c/035_Ser.wav",
+    "rcb_c/036_Ser.wav",
+    "rcb_c/037_Ser.wav",
+    "rcb_c/038_Ser.wav",
+    "rcb_c/039_Ser.wav",
+    "rcb_c/040_Ser.wav",
+    "rcb_c/041_Ser.wav",
+    "rcb_c/042_Ser.wav",
+    "rcb_c/044_Ser.wav",
+    "rcb_c/045_Ser.wav",
+    "rcb_c/046_Ser.wav",
+    "rcb_c/049_Ser.wav",
+    "rcb_c/050_Ser.wav",
+    "rcb_c/051_Ser.wav",
+    "rcb_c/052_Ser.wav",
+    "rcb_c/053_Ser.wav",
+    "rcb_c/054_Ser.wav",
+    "rcb_c/055_Ser.wav",
+    "rcb_c/056_Ser.wav",
+    "rcb_c/059_Ser.wav",
+    "rcb_c/060_Ser.wav",
+    "rcb_c/061_Ser.wav",
+    "rcb_c/062_Ser.wav",
+    "rcb_c/063_Ser.wav",
+    "rcb_c/064_Ser.wav",
+    "rcb_c/065_Ser.wav",
+    "rcb_c/066_Ser.wav",
+    "rcb_c/067_Ser.wav"
+  ],
+  "pl_c": [
+    "pl_c/001_Ser.wav",
+    "pl_c/002_Ser.wav",
+    "pl_c/003_Ser.wav",
+    "pl_c/004_Ser.wav",
+    "pl_c/005_Ser.wav",
+    "pl_c/006_Ser.wav",
+    "pl_c/007_Ser.wav",
+    "pl_c/008_Ser.wav",
+    "pl_c/009_Ser.wav",
+    "pl_c/010_Ser.wav",
+    "pl_c/011_Ser.wav",
+    "pl_c/012_Ser.wav",
+    "pl_c/013_Ser.wav",
+    "pl_c/014_Ser.wav",
+    "pl_c/015_Ser.wav",
+    "pl_c/016_Ser.wav",
+    "pl_c/017_Ser.wav",
+    "pl_c/018_Ser.wav",
+    "pl_c/019_Ser.wav",
+    "pl_c/020_Ser.wav",
+    "pl_c/021_Ser.wav",
+    "pl_c/022_Ser.wav",
+    "pl_c/023_Ser.wav",
+    "pl_c/024_Ser.wav",
+    "pl_c/025_Ser.wav",
+    "pl_c/026_Ser.wav",
+    "pl_c/027_Ser.wav",
+    "pl_c/028_Ser.wav",
+    "pl_c/029_Ser.wav",
+    "pl_c/030_Ser.wav",
+    "pl_c/031_Ser.wav",
+    "pl_c/032_Ser.wav",
+    "pl_c/033_Ser.wav",
+    "pl_c/034_Ser.wav",
+    "pl_c/035_Ser.wav",
+    "pl_c/036_Ser.wav",
+    "pl_c/039_Ser.wav",
+    "pl_c/040_Ser.wav",
+    "pl_c/041_Ser.wav",
+    "pl_c/042_Ser.wav",
+    "pl_c/043_Ser.wav",
+    "pl_c/044_Ser.wav",
+    "pl_c/045_Ser.wav",
+    "pl_c/046_Ser.wav",
+    "pl_c/047_Ser.wav",
+    "pl_c/048_Ser.wav",
+    "pl_c/049_Ser.wav",
+    "pl_c/050_Ser.wav",
+    "pl_c/051_Ser.wav",
+    "pl_c/052_Ser.wav",
+    "pl_c/053_Ser.wav",
+    "pl_c/054_Ser.wav",
+    "pl_c/055_Ser.wav",
+    "pl_c/056_Ser.wav",
+    "pl_c/057_Ser.wav",
+    "pl_c/058_Ser.wav",
+    "pl_c/059_Ser.wav",
+    "pl_c/060_Ser.wav",
+    "pl_c/061_Ser.wav",
+    "pl_c/062_Ser.wav",
+    "pl_c/063_Ser.wav",
+    "pl_c/064_Ser.wav",
+    "pl_c/065_Ser.wav",
+    "pl_c/066_Ser.wav",
+    "pl_c/067_Ser.wav"
+  ],
+  "arpf": [
+    "arp_f/Arp1A-001.wav",
+    "arp_f/Arp1A-002.wav",
+    "arp_f/Arp1A-003.wav",
+    "arp_f/Arp1A-004.wav",
+    "arp_f/Arp1A-005.wav",
+    "arp_f/Arp1A-006.wav",
+    "arp_f/Arp1A-007.wav",
+    "arp_f/Arp1A-008.wav",
+    "arp_f/Arp1A-009.wav",
+    "arp_f/Arp1A-010.wav"
+  ],
+  "DL": [
+    "dl/DL_Camo_001.wav",
+    "dl/DL_Camo_002.wav",
+    "dl/DL_Camo_003.wav",
+    "dl/DL_Camo_004.wav",
+    "dl/DL_Camo_005.wav",
+    "dl/DL_Camo_006.wav",
+    "dl/DL_Camo_007.wav",
+    "dl/DL_Camo_008.wav",
+    "dl/DL_Camo_009.wav",
+    "dl/DL_Camo_010.wav",
+    "dl/DL_Camo_011.wav",
+    "dl/DL_Camo_012.wav",
+    "dl/DL_Camo_013.wav",
+    "dl/DL_Camo_014.wav",
+    "dl/DL_From_001.wav",
+    "dl/DL_From_002.wav",
+    "dl/DL_From_003.wav",
+    "dl/DL_From_004.wav",
+    "dl/DL_From_005.wav",
+    "dl/DL_From_008.wav",
+    "dl/DL_From_009.wav",
+    "dl/DL_From_010.wav"
+  ],
+  "sb": [
+    "sb_c/001_Ser.wav",
+    "sb_c/002_Ser.wav",
+    "sb_c/003_Ser.wav",
+    "sb_c/004_Ser.wav",
+    "sb_c/005_Ser.wav",
+    "sb_c/006_Ser.wav",
+    "sb_c/007_Ser.wav",
+    "sb_c/008_Ser.wav",
+    "sb_c/009_Ser.wav",
+    "sb_c/010_Ser.wav"
+  ]
 }
-
