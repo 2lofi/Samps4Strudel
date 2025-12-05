@@ -1,4 +1,4 @@
-cd a{
+{
   "_base": "https://raw.githubusercontent.com/2lofi/Samps4Strudel/main/",
   "2lofi": [
     "2lofi_f/001_2Lo.wav",
@@ -11,7 +11,7 @@ cd a{
     "2lofi_f/008_2Lo.wav",
     "2lofi_f/009_2Lo.wav",
     "2lofi_f/010_2Lo.wav",
-    ]
+    ],
     
  "amen": [
 "amen/cw_amen01_175.wav",
@@ -34,7 +34,7 @@ cd a{
 "amen/cw_amen18_178.wav",
 "amen/cw_amen19_172.wav",
 "amen/cw_amen20_164.wav",
-]
+],
     
 "nfosf": [    
  "nf_os_f/BOS_NFXL_Bass_One_Shot_All_F.wav",
@@ -104,7 +104,7 @@ cd a{
  "nf_os_f/BOS_NFXL_Bass_One_Shot_Working_F.wav",
  "nf_os_f/BOS_NFXL_Bass_One_Shot_Worry_F.wav",
  "nf_os_f/BOS_NFXL_Bass_One_Shot_Zip_F.wav",
- ]
+ ],
     
        "ju_os_D#": [
      "ju_os_d#/JUA_D#_Bass_One_Shot_Agile.wav",
@@ -143,7 +143,7 @@ cd a{
      "ju_os_d#/JUA_D#_Bass_One_Shot_Zesty.wav",
      "ju_os_d#/JUA_D#_Bass_One_Shot_Zingy.wav",
      "ju_os_d#/JUA_D#_Bass_One_Shot_Zippy.wav",
-      ]
+      ],
     
     
     
@@ -175,7 +175,7 @@ cd a{
      "kd_c/025_GH.wav",
      "kd_c/026_GH.wav",
      "kd_c/027_GH.wav",
-      ]
+      ],
     
    "sn": [  
      "sn_c/001_GH.wav",
@@ -198,7 +198,7 @@ cd a{
      "sn_c/018_GH.wav",
      "sn_c/019_GH.wav",
      "sn_c/020_GH.wav",
-      ]
+      ],
 
     
 "rcb_c": [
@@ -264,7 +264,7 @@ cd a{
 "rcb_c/065_Ser.wav",
 "rcb_c/066_Ser.wav",
 "rcb_c/067_Ser.wav",
-]
+],
 
 "pl_c": [
 "pl_c/001_Ser.wav",
@@ -332,7 +332,7 @@ cd a{
 "pl_c/065_Ser.wav",
 "pl_c/066_Ser.wav",
 "pl_c/067_Ser.wav",
-]
+],
 
 
 
@@ -347,7 +347,7 @@ cd a{
      "arp_f/Arp1A-008.wav",
      "arp_f/Arp1A-009.wav",
      "arp_f/Arp1A-010.wav",
-      ]
+      ],
 
    "DL": [
        "dl/DL_Camo_001.wav",
@@ -372,7 +372,7 @@ cd a{
        "dl/DL_From_008.wav",
        "dl/DL_From_009.wav",
        "dl/DL_From_010.wav",
-       ]
+       ],
 
 
     "sb": [
