@@ -1,16 +1,16 @@
 {
   "_base": "https://raw.githubusercontent.com/2lofi/Samps4Strudel/main/",
   "2lofi": [
-    "2lofi_f/001_2Lo.wav",
-    "2lofi_f/002_2Lo.wav",
-    "2lofi_f/003_2Lo.wav",
-    "2lofi_f/004_2Lo.wav",
-    "2lofi_f/005_2Lo.wav",
-    "2lofi_f/006_2Lo.wav",
-    "2lofi_f/007_2Lo.wav",
-    "2lofi_f/008_2Lo.wav",
-    "2lofi_f/009_2Lo.wav",
-    "2lofi_f/010_2Lo.wav"
+    "2LoFi_f/001_2Lo.wav",
+    "2LoFi_f/002_2Lo.wav",
+    "2LoFi_f/003_2Lo.wav",
+    "2LoFi_f/004_2Lo.wav",
+    "2LoFi_f/005_2Lo.wav",
+    "2LoFi_f/006_2Lo.wav",
+    "2LoFi_f/007_2Lo.wav",
+    "2LoFi_f/008_2Lo.wav",
+    "2LoFi_f/009_2Lo.wav",
+    "2LoFi_f/010_2Lo.wav"
   ],
   "amen": [
     "amen/cw_amen01_175.wav",
