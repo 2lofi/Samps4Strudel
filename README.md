@@ -1,11 +1,8 @@
 Samples I hope
-# uzu-drumkit
-A minimal, very nice sounding electronic drum kit made specifically for uzu's
+# 2LoFi-Drum n Bass kit
+A Dutty, Neurobass and Jump Up style set of samples from producer 2LoFi 
 
 Contributers log:
-- Mot4i (provided amazing analog processed samples for nudel nudel that were so excellent, it inspired this repo)
-  https://github.com/mot4i/garden
+- Atraeus (provided support and knowhow for getting this repo up and running)
+ 
   
-- Switch Angel (provided synthesized drum sounds processed with a la76 style analog compressor)
-
-- (Ludens + Switch Angel) recorded the misc sounds on modular synthesizer during a sound design session
